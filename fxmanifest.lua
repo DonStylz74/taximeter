@@ -1,7 +1,7 @@
 
-author "Andyyy7666"
-description "Taximeter for ND_Core"
-version "1.0.1"
+--  author "Andyyy#7666 -- Donz Edit"
+--  description "Taximeter" 
+--  version "1.0.0"
 
 fx_version "cerulean"
 game "gta5"
@@ -12,6 +12,15 @@ files {
 }
 ui_page "ui/index.html"
 
-client_script "client/main.lua"
 
--- dependency "ND_Core"
+shared_script {
+    "shared/**"
+}
+
+client_script {
+    "client/**"
+}
+
+server_script {
+    "server/**"
+}
