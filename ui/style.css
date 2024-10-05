@@ -15,8 +15,11 @@ button {
     display: none;
     position: absolute;
     margin: 0;
-    right: 1.5%;
-    bottom: 8%;
+     /* Adjust position horizontally bellow */
+    left: 78.8%;
+      /* Adjust position vertically bellow */
+    bottom: 3%;
+    transform: translateX(-50%);
     width: 25%;
     height: 8%;
     background-color: rgb(44, 44, 44);
